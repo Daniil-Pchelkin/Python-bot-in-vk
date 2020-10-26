@@ -3,7 +3,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import time
 from random import randint
 
-vk_session = vk_api.VkApi(token = "234ae517120e8b08b78f89c318758e09f7bd4966cb53b9df12be47ce863c8fdadcbfad90efba8f9179497")
+vk_session = vk_api.VkApi(token = "...")
 session_api = vk_session.get_api()
 longpoll = VkLongPoll(vk_session)
 
